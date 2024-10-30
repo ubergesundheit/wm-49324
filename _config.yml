@@ -1,10 +1,10 @@
 # Site settings
-title: Weihnachtsmarkt Münster Rathaus
+title: Weihnachtsmarkt Melle
 email: muenster@codefor.de
 description: > # this means to ignore newlines until "baseurl:"
-  Die Weihnachtsmarkt App für den münsteraner Weihnachtsmarkt am Rathaus.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://codeformuenster.org/weihnachtsmarkt" # the base hostname & protocol for your site
+  Die Weihnachtsmarkt App für den Weihnachtsmarkt Melle.
+baseurl: "" # the subpath of your site, e.g. /blog/ Unless empty, should end with a /
+url: "" # the base hostname & protocol for your site
 twitter_username: codeformuenster
 github_username:  codeformuenster
 permalink: /staende/:title
@@ -18,10 +18,10 @@ searchableProperties:
 
 # strings used in the app
 strings:
-  appTitle: Weihnachtsmarkt-App Münster 2015
+  appTitle: Weihnachtsmarkt-App
   appTitleSubTitle: mit Suche!
   appDescriptionText: >
-    Diese App erlaubt es, Stände auf dem Weihnachtsmarkt in Münster zu durchsuchen. Einfach Suchbegriff oben ins Suchfeld eingeben. Passende Stände werden dann farblich markiert.
+    Diese App erlaubt es, Stände auf dem Weihnachtsmarkt in Melle zu durchsuchen. Einfach Suchbegriff oben ins Suchfeld eingeben. Passende Stände werden dann farblich markiert.
   letsGo: Los gehts!
   initialSearchResultView: Hier erscheinen die Suchergebnisse, einfach oben lostippen!
   noResults: 'Nichts für \"{str}\" gefunden!'
