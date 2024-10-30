@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 23
   stand: 55
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33700784,52.20306332],[8.33700815,52.20304339],[8.33694515,52.20304305],[8.33694485,52.20306297],[8.33700784,52.20306332]]]]}'
+  typ: S
+  angebot:
+  betreiber: Stiegemeyer
+  label: Kreativ
+geometry: '{"type":"Polygon","coordinates":[[[8.33700784,52.20306332],[8.33694485,52.20306297],[8.33694515,52.20304305],[8.33700815,52.20304339],[8.33700784,52.20306332]]]}'

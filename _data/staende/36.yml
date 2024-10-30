@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 58
   stand: 36
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33663646,52.20235908],[8.33663705,52.20232022],[8.33660475,52.20232004],[8.33660416,52.20235891],[8.33663646,52.20235908]]]]}'
+  typ: H
+  angebot:
+  betreiber: Holzapfel
+  label: Kreativ
+geometry: '{"type":"Polygon","coordinates":[[[8.33663646,52.20235908],[8.33660416,52.20235891],[8.33660475,52.20232004],[8.33663705,52.20232022],[8.33663646,52.20235908]]]}'

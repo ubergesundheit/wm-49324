@@ -5,7 +5,11 @@ L.extend(window.Weihnachtsmarkt, {
       this._enableEditingForLayer(layer);
       window.NEXT_CLICK_ENABLES_EDIT = false;
     } else if (!window.IN_EDIT_MODE) {
-      this._setSearchResultDisplay(layer.toGeoJSON());
+      if (layer.options._layertarget) {
+        this._setSearchResultDisplay(layer.options._layertarget.toGeoJSON());
+      } else {
+        this._setSearchResultDisplay(layer.toGeoJSON());
+      }
     }
   },
   _staendeStyleFilterFunction: function (layer) {
@@ -37,13 +41,19 @@ L.extend(window.Weihnachtsmarkt, {
       this._highlightLayer.addData(result);
     }
   },
+  _widerThanTall(layer) {
+    const p1 = this._map.latLngToLayerPoint(layer.getBounds().getNorthWest());
+    const p2 = this._map.latLngToLayerPoint(layer.getBounds().getSouthEast());
+
+    return p2.x - p1.x > p2.y - p1.y;
+  },
   _initMap: function () {
     var map = L.map("map",{
       center: {{ site.map.center | jsonify }},
       zoom: {{ site.map.zoom }},
       attributionControl: false,
-      editable: true
     });
+    this._map = map;
 
     this._staendeStyles = {
       normal: {
@@ -80,14 +90,35 @@ L.extend(window.Weihnachtsmarkt, {
       style: this._staendeStyleFilterFunction.bind(this),
       onEachFeature: function (feature, layer) {
         layer.on("click", this._onFeatureClick.bind(this));
+
+        const innerDivContainer = L.DomUtil.create("div");
+
+        const standNummerContainer = L.DomUtil.create("div", "standnummer", innerDivContainer);
+        standNummerContainer.textContent = feature.properties.stand;
+
+        const standTypContainer = L.DomUtil.create("div", "standtyp", innerDivContainer);
+        standTypContainer.textContent = feature.properties.typ;
+
+        if (this._widerThanTall(layer)) {
+          L.DomUtil.addClass(innerDivContainer, "wider-than-tall");
+        }
+
+        const standmarker = L.marker(L.PolyUtil.centroid(layer._latlngs[0]), {icon: L.divIcon({className: 'standlabel', html: innerDivContainer}), _layertarget: layer});
+        standmarker.on("click", this._onFeatureClick.bind(this));
+        standmarker.addTo(map);
       }.bind(this)
+    }).addTo(map);
+
+    L.geoJson(this._rawExtinguishers, {
+      pointToLayer: function(geoJsonPoint, latlng) {
+        return L.marker(latlng, {icon: L.divIcon({className: 'feuerloescher', html: "F"})});
+      }
     }).addTo(map);
 
     this._highlightLayer = L.geoJson({type:"FeatureCollection",features:[]}, {
       style: this._staendeStyles.result
     }).addTo(map);
 
-    this._map = map;
     return map;
   }
 });

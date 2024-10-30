@@ -73,12 +73,31 @@ L.Util.extend(window.Weihnachtsmarkt, {
     hideNodeById("initialSearchResultView");
     this._currentResultHeadline.textContent = "-";
     this._currentResultDescription.textContent = "-";
-    if (searchResultObj.properties) {
-      if (searchResultObj.properties.betreiber) {
-        this._currentResultHeadline.textContent = searchResultObj.properties.betreiber;
+    const resultProps = searchResultObj.properties;
+    if (resultProps) {
+      let headline = resultProps.stand;
+      if (resultProps.betreiber) {
+        headline = headline + " - " + resultProps.betreiber;
       }
-      if (searchResultObj.properties.angebot) {
-        this._currentResultDescription.textContent = searchResultObj.properties.angebot.join(", ");
+      this._currentResultHeadline.textContent = headline;
+      let description = [];
+
+      this._searchableProperties.forEach(function (prop) {
+        if (prop === "stand" || prop === "betreiber") {
+          return;
+        }
+        if (resultProps[prop]) {
+          if (Array.isArray(resultProps[prop])) {
+            resultProps[prop].forEach(function (v) {
+              description.push(v);
+            });
+          } else {
+            description.push(resultProps[prop]);
+          }
+        }
+      });
+      if (resultProps.length !== 0) {
+        this._currentResultDescription.textContent = description.join(", ");
       }
     }
     if (this._resultList && this._resultList.length > 1) {
@@ -138,4 +157,3 @@ L.Util.extend(window.Weihnachtsmarkt, {
     this._resultNodeHint = L.DomUtil.get("initialSearchResultView");
   }
 });
-

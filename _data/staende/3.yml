@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 39
   stand: 3
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33662694,52.20261998],[8.33665924,52.20262016],[8.33665983,52.2025813],[8.33662753,52.20258112],[8.33662694,52.20261998]]]]}'
+  typ: 3x2
+  angebot: UNICEF
+  betreiber: Gymnasium Melle, Matthias Beck
+  label: Gemeinnützig
+geometry: '{"type":"Polygon","coordinates":[[[8.33662694,52.20261998],[8.33662753,52.20258112],[8.33665983,52.2025813],[8.33665924,52.20262016],[8.33662694,52.20261998]]]}'

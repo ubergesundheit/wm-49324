@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 9
   stand: 65
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33680286,52.20285075],[8.33683516,52.20285093],[8.33683575,52.20281207],[8.33680345,52.20281189],[8.33680286,52.20285075]]]]}'
+  typ: 2x3
+  angebot: Thai-Essen
+  betreiber: Thail. Spezialitäten
+  label: Gastro
+geometry: '{"type":"Polygon","coordinates":[[[8.33680286,52.20285075],[8.33680345,52.20281189],[8.33683575,52.20281207],[8.33683516,52.20285093],[8.33680286,52.20285075]]]}'

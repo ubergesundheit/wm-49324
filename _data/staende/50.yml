@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 2
   stand: 50
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33663386,52.20295115],[8.33666616,52.20295133],[8.33666675,52.20291247],[8.33663445,52.20291229],[8.33663386,52.20295115]]]]}'
+  typ: 4x2,5
+  angebot:
+  betreiber: Katrin Schulz - Das isses
+  label: Kreativ
+geometry: '{"type":"Polygon","coordinates":[[[8.33663386,52.20295115],[8.33663445,52.20291229],[8.33666675,52.20291247],[8.33666616,52.20295133],[8.33663386,52.20295115]]]}'

@@ -3,6 +3,10 @@ type: Feature
 properties:
   FID: 5
   stand: 47
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33663612,52.20280225],[8.33666842,52.20280242],[8.33666901,52.20276356],[8.33663672,52.20276339],[8.33663612,52.20280225]]]]}'
+  typ: CBK
+  angebot:
+  betreiber: Wechselbude
+  telefon:
+  email:
+  label:
+geometry: '{"type":"Polygon","coordinates":[[[8.33663612,52.20280225],[8.33663672,52.20276339],[8.33666901,52.20276356],[8.33666842,52.20280242],[8.33663612,52.20280225]]]}'

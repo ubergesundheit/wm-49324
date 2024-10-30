@@ -3,6 +3,10 @@ type: Feature
 properties:
   FID: 45
   stand: 7
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33640675,52.20261418],[8.33643905,52.20261436],[8.33643964,52.2025755],[8.33640734,52.20257532],[8.33640675,52.20261418]]]]}'
+  typ: VP
+  angebot:
+  betreiber:
+  telefon:
+  email:
+  label:
+geometry: '{"type":"Polygon","coordinates":[[[8.33640675,52.20261418],[8.33640734,52.20257532],[8.33643964,52.2025755],[8.33643905,52.20261436],[8.33640675,52.20261418]]]}'

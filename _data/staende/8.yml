@@ -3,6 +3,10 @@ type: Feature
 properties:
   FID: 46
   stand: 8
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.3364074,52.20257121],[8.3364397,52.20257139],[8.33644029,52.20253253],[8.33640799,52.20253235],[8.3364074,52.20257121]]]]}'
+  typ: E
+  angebot:
+  betreiber: Lammers Esskultur
+  telefon:
+  email:
+  label: Gastro
+geometry: '{"type":"Polygon","coordinates":[[[8.3364074,52.20257121],[8.33640799,52.20253235],[8.33644029,52.20253253],[8.3364397,52.20257139],[8.3364074,52.20257121]]]}'

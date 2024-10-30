@@ -3,6 +3,10 @@ type: Feature
 properties:
   FID: 68
   stand: 12
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.3364097,52.20227488],[8.336442,52.20227505],[8.33644259,52.20223619],[8.33641029,52.20223602],[8.3364097,52.20227488]]]]}'
+  typ: VP
+  angebot:
+  betreiber:
+  telefon:
+  email:
+  label:
+geometry: '{"type":"Polygon","coordinates":[[[8.3364097,52.20227488],[8.33641029,52.20223602],[8.33644259,52.20223619],[8.336442,52.20227505],[8.3364097,52.20227488]]]}'

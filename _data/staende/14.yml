@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 66
   stand: 14
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33647351,52.20217761],[8.33650581,52.20217778],[8.3365064,52.20213892],[8.3364741,52.20213874],[8.33647351,52.20217761]]]]}'
+  typ: H
+  angebot: Holz
+  betreiber: Werner Pawlowski
+  label: kreativ
+geometry: '{"type":"Polygon","coordinates":[[[8.33647351,52.20217761],[8.3364741,52.20213874],[8.3365064,52.20213892],[8.33650581,52.20217778],[8.33647351,52.20217761]]]}'

@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 16
   stand: 68
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33685133,52.20299364],[8.33691433,52.20299399],[8.33691463,52.20297407],[8.33685164,52.20297372],[8.33685133,52.20299364]]]]}'
+  typ: S
+  angebot: Textil
+  betreiber: NähDings
+  label: Kreativ
+geometry: '{"type":"Polygon","coordinates":[[[8.33685133,52.20299364],[8.33685164,52.20297372],[8.33691463,52.20297407],[8.33691433,52.20299399],[8.33685133,52.20299364]]]}'

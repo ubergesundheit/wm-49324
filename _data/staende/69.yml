@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 17
   stand: 69
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33691433,52.20299399],[8.33697733,52.20299434],[8.33697763,52.20297441],[8.33691463,52.20297407],[8.33691433,52.20299399]]]]}'
+  typ: S
+  angebot: Keks-Stempel
+  betreiber: CutAll-Creation
+  label: Kreativ
+geometry: '{"type":"Polygon","coordinates":[[[8.33691433,52.20299399],[8.33691463,52.20297407],[8.33697763,52.20297441],[8.33697733,52.20299434],[8.33691433,52.20299399]]]}'

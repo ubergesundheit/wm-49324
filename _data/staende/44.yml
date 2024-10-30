@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 60
   stand: 44
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33652055,52.20234844],[8.33655284,52.20234861],[8.33655343,52.20230975],[8.33652114,52.20230958],[8.33652055,52.20234844]]]]}'
+  typ: H
+  angebot: Lichtspiele
+  betreiber: Christine Möller
+  label: Kreativ
+geometry: '{"type":"Polygon","coordinates":[[[8.33652055,52.20234844],[8.33652114,52.20230958],[8.33655343,52.20230975],[8.33655284,52.20234861],[8.33652055,52.20234844]]]}'

@@ -2,8 +2,8 @@
 ## Development:
 
 ```
-docker-compose run jekyll ./convert-to-yml.rb
-docker-compose run jekyll jekyll build
+docker-compose run --rm jekyll ./convert-to-yml.rb
+docker-compose run --rm jekyll jekyll build
 ```
 
 # Update external dependencies (bower.json)

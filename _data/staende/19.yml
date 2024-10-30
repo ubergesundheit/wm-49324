@@ -3,6 +3,8 @@ type: Feature
 properties:
   FID: 56
   stand: 19
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33672441,52.20233431],[8.33675671,52.20233449],[8.3367573,52.20229562],[8.33672501,52.20229545],[8.33672441,52.20233431]]]]}'
+  typ: CBN
+  angebot: Churros
+  betreiber: Marco Rietze
+  label: Gastro
+geometry: '{"type":"Polygon","coordinates":[[[8.33672441,52.20233431],[8.33672501,52.20229545],[8.3367573,52.20229562],[8.33675671,52.20233449],[8.33672441,52.20233431]]]}'

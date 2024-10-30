@@ -3,6 +3,10 @@ type: Feature
 properties:
   FID: 47
   stand: 9
-  typ: stand
-  warenangeb:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33640806,52.20252825],[8.33644036,52.20252842],[8.33644095,52.20248956],[8.33640865,52.20248938],[8.33640806,52.20252825]]]]}'
+  typ: E
+  angebot:
+  betreiber: Läge
+  telefon:
+  email:
+  label: Gastro
+geometry: '{"type":"Polygon","coordinates":[[[8.33640806,52.20252825],[8.33640865,52.20248938],[8.33644095,52.20248956],[8.33644036,52.20252842],[8.33640806,52.20252825]]]}'
