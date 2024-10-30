@@ -9,6 +9,6 @@ L.extend(window.Weihnachtsmarkt, {
     });
 
     // Editable
-    this._enableEditingControls(map);
+    // this._enableEditingControls(map);
   }
 });

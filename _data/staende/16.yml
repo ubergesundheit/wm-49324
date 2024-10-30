@@ -1,0 +1,8 @@
+---
+type: Feature
+properties:
+  FID: 69
+  stand: 16
+  typ: stand
+  warenangeb:
+geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33665129,52.20208541],[8.33665159,52.20206549],[8.33658859,52.20206514],[8.33658829,52.20208506],[8.33665129,52.20208541]]]]}'

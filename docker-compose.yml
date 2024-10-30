@@ -1,10 +1,11 @@
-jekyll:
-  image: jekyll/jekyll:pages
-  #build: .
-  #image: ruby:onbuild
-  volumes:
-    - .:/srv/jekyll
-  ports:
-    - 4000:4000
-      #command: jekyll serve
+services:
+  jekyll:
+    image: jekyll/jekyll:pages
+    #build: .
+    #image: ruby:onbuild
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - 4000:4000
+        #command: jekyll serve
 

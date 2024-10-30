@@ -31,11 +31,9 @@ strings:
 
 # Map config keys
 map:
-  center:
-    - 51.96144
-    - 7.6292
-  zoom: 18
-  tileLayerUrl: 'http://{s}.tiles.mapbox.com/v3/tomrocket.k93e7pp4/{z}/{x}/{y}.png'
+  center: [52.20258203, 8.33679602]
+  zoom: 20
+  tileLayerUrl: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png'
   normalColor: '#f8f8f8'
   lowColor: '#B8BCC8'
   highColor: '#ff3322'

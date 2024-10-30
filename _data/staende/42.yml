@@ -1,10 +1,8 @@
 ---
 type: Feature
 properties:
-  stand_nr: 42
-  sub_stand: 
-  betreiber: 
-  warenangeb: 
-  glueh_prei: 
-  markt: rathaus
-geometry: '{"type":"Polygon","coordinates":[[[7.629822,51.961755],[7.629809,51.961734],[7.629755,51.961747],[7.629768,51.961767],[7.629822,51.961755]]]}'
+  FID: 51
+  stand: 42
+  typ: stand
+  warenangeb:
+geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33650731,52.20246857],[8.33653961,52.20246875],[8.3365402,52.20242989],[8.3365079,52.20242971],[8.33650731,52.20246857]]]]}'
