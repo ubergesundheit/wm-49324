@@ -1,0 +1,8 @@
+---
+type: Feature
+properties:
+  FID: 51
+  stand: 42
+  typ: stand
+  warenangeb:
+geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33650731,52.20246857],[8.33653961,52.20246875],[8.3365402,52.20242989],[8.3365079,52.20242971],[8.33650731,52.20246857]]]]}'
