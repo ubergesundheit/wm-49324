@@ -3,10 +3,10 @@ type: Feature
 properties:
   FID: 64
   stand: 10
-  typ: stand
-  angebot:
-  betreiber:
+  typ: 23TH
+  angebot: lichtspiele
+  betreiber: möller
   telefon:
-  email:
-  label:
+  email: tinemoeller136@web.de
+  label: kreativ
 geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33654303,52.20223383],[8.33657533,52.20223401],[8.33657592,52.20219515],[8.33654362,52.20219497],[8.33654303,52.20223383]]]]}'
