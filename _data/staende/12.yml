@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 68
   stand: 12
-  typ: stand
+  typ: Verzehrplatz
   angebot:
   betreiber:
   telefon:
