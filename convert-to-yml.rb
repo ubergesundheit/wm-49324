@@ -26,6 +26,7 @@ data["features"].each do |feature|
   yml_stand["properties"]["betreiber"] = nil
   yml_stand["properties"]["telefon"] = nil
   yml_stand["properties"]["email"] = nil
+  yml_stand["properties"]["label"] = nil
 
   File.open("_data/staende/#{yml_stand["properties"]["stand"]}.yml","w") do |f|
     f.write(yml_stand.to_yaml)

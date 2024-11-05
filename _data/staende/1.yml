@@ -9,4 +9,5 @@ properties:
   betreiber: St. Matthäus Melle
   telefon:
   email:
+  label:
 geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33662563,52.20270591],[8.33665793,52.20270609],[8.33665852,52.20266723],[8.33662622,52.20266705],[8.33662563,52.20270591]]]]}'

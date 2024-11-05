@@ -8,4 +8,5 @@ properties:
   betreiber:
   telefon:
   email:
+  label:
 geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33646862,52.20265933],[8.33646892,52.20263941],[8.33640593,52.20263906],[8.33640563,52.20265899],[8.33646862,52.20265933]]]]}'
