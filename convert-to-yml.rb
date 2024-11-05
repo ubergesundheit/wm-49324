@@ -22,17 +22,17 @@ encoding_options = {
 data["features"].each do |feature|
   yml_stand = feature
   yml_stand["geometry"] = feature["geometry"].to_json
-  if feature["properties"]["warenangeb"] != nil
-    yml_stand["properties"]["angebot"] = feature["properties"]["warenangeb"].split(",").map(&:strip)
-  end
-  yml_stand["properties"]["warenangeb"] = nil
+  # if feature["properties"]["warenangeb"] != nil
+  #   yml_stand["properties"]["angebot"] = feature["properties"]["warenangeb"].split(",").map(&:strip)
+  # end
+  yml_stand["properties"]["angebot"] = nil
   begin
     filename = yml_stand["properties"]["betreiber"].encode(Encoding.find('ASCII'), encoding_options).gsub(/\s/, "")[0..8]
   rescue
     filename = ""
   end
 
-  File.open("_data/staende/#{yml_stand["properties"]["FID"]}#{filename}.yml","w") do |f|
+  File.open("_data/staende/#{yml_stand["properties"]["stand"]}#{filename}.yml","w") do |f|
     f.write(yml_stand.to_yaml)
   end
 end

@@ -1,0 +1,8 @@
+---
+type: Feature
+properties:
+  FID: 49
+  stand: buehne
+  typ: buehne
+  angebot:
+geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33628612,52.20248731],[8.33637962,52.20248782],[8.33638133,52.20237533],[8.33628783,52.20237481],[8.33628612,52.20248731]]]]}'

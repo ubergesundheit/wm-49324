@@ -4,5 +4,5 @@ properties:
   FID: 73
   stand: 73
   typ: stand
-  warenangeb:
+  angebot:
 geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33634722,52.20237191],[8.33637952,52.20237209],[8.33638011,52.20233323],[8.33634781,52.20233305],[8.33634722,52.20237191]]]]}'
