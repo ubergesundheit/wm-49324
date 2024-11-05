@@ -5,7 +5,11 @@ L.extend(window.Weihnachtsmarkt, {
       this._enableEditingForLayer(layer);
       window.NEXT_CLICK_ENABLES_EDIT = false;
     } else if (!window.IN_EDIT_MODE) {
-      this._setSearchResultDisplay(layer.toGeoJSON());
+      if (layer.options._layertarget) {
+        this._setSearchResultDisplay(layer.options._layertarget.toGeoJSON());
+      } else {
+        this._setSearchResultDisplay(layer.toGeoJSON());
+      }
     }
   },
   _staendeStyleFilterFunction: function (layer) {
@@ -80,6 +84,10 @@ L.extend(window.Weihnachtsmarkt, {
       style: this._staendeStyleFilterFunction.bind(this),
       onEachFeature: function (feature, layer) {
         layer.on("click", this._onFeatureClick.bind(this));
+
+        const standmarker = L.marker(L.PolyUtil.centroid(layer._latlngs[0][0]), {icon: L.divIcon({className: 'standnummer', html: feature.properties.stand}), _layertarget: layer});
+        standmarker.on("click", this._onFeatureClick.bind(this));
+        standmarker.addTo(map);
       }.bind(this)
     }).addTo(map);
 
