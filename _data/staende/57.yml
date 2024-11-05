@@ -1,8 +1,0 @@
----
-type: Feature
-properties:
-  FID: 24
-  stand: 57
-  typ: stand
-  angebot:
-geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33707439,52.20306337],[8.33707469,52.20304344],[8.3370117,52.2030431],[8.33701139,52.20306302],[8.33707439,52.20306337]]]]}'

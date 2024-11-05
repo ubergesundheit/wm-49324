@@ -5,4 +5,7 @@ properties:
   stand: 79
   typ: stand
   angebot:
+  betreiber:
+  telefon:
+  email:
 geometry: '{"type":"MultiPolygon","coordinates":[[[[8.33733535,52.20290473],[8.33733566,52.2028848],[8.33727266,52.20288446],[8.33727236,52.20290438],[8.33733535,52.20290473]]]]}'
