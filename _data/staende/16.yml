@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 69
   stand: 16
-  typ: E
+  typ: 8x6
   angebot: Imbiss
   betreiber: Werners Grillimbiss
   label: Gastro
