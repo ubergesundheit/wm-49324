@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 52
   stand: 43
-  typ: 3x8m
+  typ: 3x8
   angebot: Glühwein
   betreiber: Beerenweine
   label: Gastro
