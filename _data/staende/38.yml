@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 53
   stand: 38
-  typ: 4,5x6m
+  typ: 4,5x6
   angebot: Gulasch, Dessert, Wein
   betreiber: Weberhaus
   label: Gastro
