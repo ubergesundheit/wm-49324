@@ -4,7 +4,6 @@ properties:
   FID: 41
   stand: 1
   typ: CBN
-  angebot:
-  - Waffeln
+  angebot: Waffeln
   betreiber: St. Matthäus Melle
 geometry: '{"type":"Polygon","coordinates":[[[8.33662563,52.20270591],[8.33662622,52.20266705],[8.33665852,52.20266723],[8.33665793,52.20270609],[8.33662563,52.20270591]]]}'
