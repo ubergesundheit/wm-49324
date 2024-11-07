@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 10
   stand: 64
-  typ: 6x5m
+  typ: 6x5
   angebot: Lachs
   betreiber: Balshüsemann
   label: Gastro
