@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 4
   stand: 48
-  typ: 2x2m
+  typ: 2x2
   angebot: Pizza und Crepes
   betreiber: Wallschuss
   label: Gastro
