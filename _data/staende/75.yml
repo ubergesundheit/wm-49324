@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 32
   stand: 75
-  typ: E
+  typ: 3x2,5
   angebot: Grillimbiss
   betreiber: Werners Grillimbiss
   telefon:
