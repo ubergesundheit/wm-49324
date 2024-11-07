@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 46
   stand: 8
-  typ: E
+  typ: 2x3
   angebot:
   betreiber: Lammers Esskultur
   telefon:
