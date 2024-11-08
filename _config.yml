@@ -27,7 +27,7 @@ strings:
   appTitleSubTitle: mit Suche!
   appDescriptionText: >
     Diese App erlaubt es, Stände auf dem Weihnachtsmarkt in Melle zu durchsuchen. Einfach Suchbegriff oben ins Suchfeld eingeben. Passende Stände werden dann farblich markiert.
-  letsGo: Los gehts!
+  letsGo: zum Standplan!
   initialSearchResultView: Hier erscheinen die Suchergebnisse, einfach oben lostippen!
   noResults: 'Nichts für \"{str}\" gefunden!'
   searchPlaceholder: Angebotssuche
