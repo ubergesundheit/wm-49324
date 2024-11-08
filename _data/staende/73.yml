@@ -3,10 +3,10 @@ type: Feature
 properties:
   FID: 73
   stand: 73
-  typ: CBN
+  typ:
   angebot:
-  betreiber: Kampeter, Mutzenmandeln
+  betreiber:
   telefon:
   email:
-  label: Gastro
+  label: 
 geometry: '{"type":"Polygon","coordinates":[[[8.33634722,52.20237191],[8.33634781,52.20233305],[8.33638011,52.20233323],[8.33637952,52.20237209],[8.33634722,52.20237191]]]}'
