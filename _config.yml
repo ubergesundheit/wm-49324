@@ -39,7 +39,7 @@ map:
   center: [52.20258203, 8.33679602]
   zoom: 20
   tileLayerUrl: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png'
-  normalColor: '#Ef8f8f8'
+  normalColor: '#A0A0A0'
   lowColor: '#B8BCC8'
   highColor: '#ff3322'
   resultColor: '#F57F06'
