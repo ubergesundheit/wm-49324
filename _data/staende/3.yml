@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 39
   stand: 3
-  typ: 3x2
+  typ: CBN
   angebot: UNICEF
   betreiber: Gymnasium Melle, Matthias Beck
   label: Gemeinnützig
