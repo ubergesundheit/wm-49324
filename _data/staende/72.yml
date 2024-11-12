@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 18
   stand: 72
-  typ: S
+  typ: H
   angebot:
   betreiber: Geduldsfaden
   telefon:
