@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 1
   stand: 74
-  typ: S
+  typ: H
   angebot:
   betreiber: Weigang
   telefon:
