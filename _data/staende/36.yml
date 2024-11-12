@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 58
   stand: 36
-  typ: H
+  typ: S
   angebot:
   betreiber: Holzapfel
   label: Kreativ
