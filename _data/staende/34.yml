@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 62
   stand: 34
-  typ: H
+  typ: S
   angebot:
   betreiber: Katharina Langkamp
   label: Kreativ
