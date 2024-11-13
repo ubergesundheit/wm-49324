@@ -4,7 +4,7 @@ properties:
   FID: 62
   stand: 34
   typ: S
-  angebot:
-  betreiber: Katharina Langkamp
-  label: Kreativ
+  angebot: Mutzenmandeln
+  betreiber: Kampeter
+  label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33663776,52.20227331],[8.33660546,52.20227313],[8.33660606,52.20223427],[8.33663835,52.20223445],[8.33663776,52.20227331]]]}'
