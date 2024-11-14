@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 22
   stand: 54
-  typ: S
+  typ: H
   angebot: Textil
   betreiber: MyCottonQueen
   label: Kreativ
