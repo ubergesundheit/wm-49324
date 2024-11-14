@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 16
   stand: 68
-  typ: H
+  typ: S
   angebot: Textil
   betreiber: NähDings
   label: Kreativ
