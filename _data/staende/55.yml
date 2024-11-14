@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 23
   stand: 55
-  typ: S
+  typ: H
   angebot:
   betreiber: Stiegemeyer
   label: Kreativ
