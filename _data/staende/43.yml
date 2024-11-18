@@ -5,6 +5,6 @@ properties:
   stand: 43
   typ: 3x8
   angebot: Glühwein
-  betreiber: Beerenweine
+  betreiber: Beerenweine, Gwiasda, 015208967166
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33651973,52.20240189],[8.33652032,52.20236303],[8.33655262,52.2023632],[8.33655203,52.20240207],[8.33651973,52.20240189]]]}'
