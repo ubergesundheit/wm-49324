@@ -5,6 +5,6 @@ properties:
   stand: 54
   typ: H
   angebot: Textil
-  betreiber: MyCottonQueen
+  betreiber: MyCottonQueen, Yvonne Brade, 017660451181
   label: Kreativ
 geometry: '{"type":"Polygon","coordinates":[[[8.33694204,52.20306296],[8.33687904,52.20306261],[8.33687935,52.20304268],[8.33694234,52.20304303],[8.33694204,52.20306296]]]}'
