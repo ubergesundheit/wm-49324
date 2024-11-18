@@ -5,6 +5,6 @@ properties:
   stand: 67
   typ: 4x2
   angebot: Glühwein, Bier
-  betreiber: Luckmann
+  betreiber: Luckmann, 01737569323
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.3368175,52.20299346],[8.33681811,52.20295282],[8.33685041,52.202953],[8.33684979,52.20299364],[8.3368175,52.20299346]]]}'
