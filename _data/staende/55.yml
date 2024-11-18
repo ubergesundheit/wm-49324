@@ -5,6 +5,6 @@ properties:
   stand: 55
   typ: H
   angebot:
-  betreiber: Stiegemeyer
+  betreiber: Stiegemeyer, 01755902138
   label: Kreativ
 geometry: '{"type":"Polygon","coordinates":[[[8.33700784,52.20306332],[8.33694485,52.20306297],[8.33694515,52.20304305],[8.33700815,52.20304339],[8.33700784,52.20306332]]]}'
