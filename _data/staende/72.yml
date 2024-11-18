@@ -5,8 +5,6 @@ properties:
   stand: 72
   typ: S
   angebot:
-  betreiber: Geduldsfaden
-  telefon:
-  email:
+  betreiber: Geduldsfaden, Manuela Gläser, 017623536947
   label: Kreativ
 geometry: '{"type":"Polygon","coordinates":[[[8.33691462,52.20297467],[8.33685163,52.20297433],[8.33685195,52.20295301],[8.33691495,52.20295335],[8.33691462,52.20297467]]]}'
