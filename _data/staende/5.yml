@@ -5,6 +5,6 @@ properties:
   stand: 5
   typ: GH
   angebot: Glühwein, Bier
-  betreiber: Kaffeemühle
+  betreiber: Kaffeemühle, 01702353000, 01719245500
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33654106,52.2026154],[8.33647807,52.20261506],[8.33647837,52.20259513],[8.33654136,52.20259548],[8.33654106,52.2026154]]]}'
