@@ -5,6 +5,6 @@ properties:
   stand: 45
   typ: S
   angebot: Fuchs&Gans
-  betreiber: Keil
+  betreiber: Keil, 054281844
   label: Kreativ
 geometry: '{"type":"Polygon","coordinates":[[[8.33652447,52.20228995],[8.33652506,52.20225108],[8.33655736,52.20225126],[8.33655677,52.20229012],[8.33652447,52.20228995]]]}'
