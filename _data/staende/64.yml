@@ -5,6 +5,6 @@ properties:
   stand: 64
   typ: 6x5
   angebot: Lachs
-  betreiber: Balshüsemann
+  betreiber: Balshüsemann, 01774167637
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33683379,52.20289899],[8.33680149,52.20289881],[8.33680208,52.20285995],[8.33683438,52.20286012],[8.33683379,52.20289899]]]}'
