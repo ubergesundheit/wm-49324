@@ -5,6 +5,6 @@ properties:
   stand: 39
   typ: 3,5x3m
   angebot:
-  betreiber: Förderverein Lindenschule
+  betreiber: Förderverein Lindenschule, 015208403717
   label: Gemeinnützig
 geometry: '{"type":"Polygon","coordinates":[[[8.33676561,52.20275877],[8.33670262,52.20275843],[8.33670292,52.2027385],[8.33676592,52.20273885],[8.33676561,52.20275877]]]}'
