@@ -5,6 +5,6 @@ properties:
   stand: 23
   typ: 6x2,5
   angebot: Mandeln, Süßes
-  betreiber: Leimberger
+  betreiber: Leimberger, 015784434829
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33670436,52.20259143],[8.33670495,52.20255257],[8.33673724,52.20255275],[8.33673665,52.20259161],[8.33670436,52.20259143]]]}'
