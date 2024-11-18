@@ -5,6 +5,6 @@ properties:
   stand: 63
   typ: 2,5x2
   angebot: Honig
-  betreiber: Dawidowski
+  betreiber: Dawidowski, 01717482313
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33693478,52.20290035],[8.33687179,52.2029],[8.33687209,52.20288007],[8.33693508,52.20288042],[8.33693478,52.20290035]]]}'
