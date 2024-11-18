@@ -5,6 +5,6 @@ properties:
   stand: 48
   typ: 2x2
   angebot: Pizza und Crepes
-  betreiber: Wallschuss
+  betreiber: Wallschuss, 01782146457
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33663545,52.20284657],[8.33663604,52.20280771],[8.33666834,52.20280789],[8.33666775,52.20284675],[8.33663545,52.20284657]]]}'
