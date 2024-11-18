@@ -5,6 +5,6 @@ properties:
   stand: 59
   typ: 7x5
   angebot: Kartoffelsnacks
-  betreiber: Balsehüsemann
+  betreiber: Balsehüsemann, 01774167637
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33710273,52.20295206],[8.33710332,52.2029132],[8.33713562,52.20291338],[8.33713502,52.20295224],[8.33710273,52.20295206]]]}'
