@@ -5,6 +5,6 @@ properties:
   stand: 19
   typ: CBN
   angebot: Churros
-  betreiber: Marco Rietze
+  betreiber: Marco Rietze, 01741888893
   label: Gastro
 geometry: '{"type":"Polygon","coordinates":[[[8.33672441,52.20233431],[8.33672501,52.20229545],[8.3367573,52.20229562],[8.33675671,52.20233449],[8.33672441,52.20233431]]]}'
