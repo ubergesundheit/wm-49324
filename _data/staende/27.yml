@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 11
   stand: 27
-  typ: 2x2
+  typ: 4x2
   angebot: Maronen
   betreiber: Helmut Kiel, 01792358858
   label: Gastro
