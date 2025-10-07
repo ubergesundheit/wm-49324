@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 6
   stand: 39
-  typ: 3,5x3m
+  typ: CBN
   angebot:
   betreiber: Förderverein Lindenschule, 015208403717
   label: Gemeinnützig
