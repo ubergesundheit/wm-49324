@@ -1,0 +1,11 @@
+---
+type: Feature
+properties:
+  stand: 82
+  typ: VP
+  angebot:
+  betreiber:
+  telefon:
+  email:
+  label:
+geometry: '{"coordinates":[[[8.337015,52.203063],[8.337015,52.203043],[8.337071,52.203043],[8.337071,52.203063],[8.337015,52.203063]]],"type":"Polygon"}'
