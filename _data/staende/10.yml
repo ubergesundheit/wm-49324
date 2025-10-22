@@ -4,7 +4,7 @@ properties:
   FID: 64
   stand: 10
   typ: CBN
-  angebot: POP UP 3
-  betreiber: 
-  label: 
+  angebot: 
+  betreiber: 015119111566 Nina Schengber
+  label: POP UP 3
 geometry: '{"type":"Polygon","coordinates":[[[8.33654303,52.20223383],[8.33654362,52.20219497],[8.33657592,52.20219515],[8.33657533,52.20223401],[8.33654303,52.20223383]]]}'
