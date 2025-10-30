@@ -1,8 +1,8 @@
 ---
 type: Feature
 properties:
-  stand: 82
-  typ: VP
+  stand: 
+  typ: 
   angebot:
   betreiber:
   telefon:
