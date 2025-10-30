@@ -3,9 +3,9 @@ type: Feature
 properties:
   FID: 28
   stand: 81
-  typ: VP
+  typ: S
   angebot:
-  betreiber:
+  betreiber: Pop-Up
   telefon:
   email:
   label:
