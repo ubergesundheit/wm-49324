@@ -7,4 +7,4 @@ properties:
   angebot: Handarbeiten, Bastelartikel
   betreiber: St. Petri Kirche, Hinck, 015208686365
   label: Gemeinnützig, Kreativ
-geometry: '{"type":"Polygon","coordinates":[[[8.33714022,52.20306373],[8.33707722,52.20306338],[8.33707753,52.20304346],[8.33714052,52.20304381],[8.33714022,52.20306373]]]}'
+geometry: '{"coordinates":[[[8.337015,52.203063],[8.337015,52.203043],[8.337071,52.203043],[8.337071,52.203063],[8.337015,52.203063]]],"type":"Polygon"}'
