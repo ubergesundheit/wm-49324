@@ -3,10 +3,10 @@ type: Feature
 properties:
   FID: 32
   stand: 75
-  typ: 2x2
-  angebot: Pizza und Crepes
-  betreiber: Wallschuss, 01782146457
-  telefon:
+  typ: S
+  angebot: Pop-up 3
+  betreiber: WG Melle City, Nina Schengber
+  telefon: 015119111566
   email:
-  label: Gastro
+  label: Kreativ
 geometry: '{"coordinates":[[[8.337295494978093,52.20293041756764],[8.337295494978093,52.20295023613957],[8.33723241034167,52.20295023613957],[8.33723241034167,52.20293041756764],[8.337295494978093,52.20293041756764]]],"type":"Polygon"}'
