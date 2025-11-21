@@ -3,7 +3,7 @@ type: Feature
 properties:
   FID: 12
   stand: 22
-  typ: 2x3
+  typ: 2x3 / 32A
   angebot: Imbiss
   betreiber: Thail. Spezialitäten, 01792358858
   label: Gastro
